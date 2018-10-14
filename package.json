@@ -1,5 +1,8 @@
 {
     "name": "usitedemo",
-    "version": "1.0.0",
-    "description": "Very basic blog setup to be used with uSite static site generator"
+    "version": "2.0.0",
+    "description": "Very basic blog setup to be used with uSite static site generator",
+    "devDependencies": {
+        "rss20": "^1.0.2"
+    }
 }

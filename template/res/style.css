@@ -1,7 +1,12 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
+    font-size: 18px;
+}
+
+a {
+    color: #009688;
 }
 
 .header-container{
@@ -10,12 +15,7 @@ body{
 }
 
 .header-container a{
-    text-decoration: none;
     color: white;
-}
-
-.header-container a:hover{
-    text-decoration: underline;
 }
 
 .container{
@@ -23,16 +23,40 @@ body{
     margin: 0 auto;
     padding: 20px 10px;
 }
+@media (max-width: 1024px) {
+    .container{
+        width: 100%;
+        margin: 0;
+    }
+}
 
 .logo{
+    font-weight: bold;
     font-size: 60px;
+}
+
+.post {
+    border-bottom: 1px solid rgb(201, 201, 201);
+    margin-bottom: 18px;
+}
+
+.post h1{
+    margin-bottom: 0;
 }
 
 .post h1 a{
     color: black;
-    text-decoration: none;
 }
 
 .post h1 a:hover{
     text-decoration: underline;
+}
+
+.post .meta{
+    font-size: 14px;
+}
+
+.footer{
+    margin-top: 48px;
+    text-align: center;
 }
